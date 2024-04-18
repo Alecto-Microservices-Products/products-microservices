@@ -1,6 +1,6 @@
 import { Type } from "class-transformer";
 import { IsNumber, IsString, Min } from "class-validator";
-import { number } from "joi";
+
 
 export class CreateProductDto {
     
