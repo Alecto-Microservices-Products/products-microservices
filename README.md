@@ -8,3 +8,10 @@
 4. Ejecutar migracion de prisma `npx prisma migrate dev`
 5. Ejecutar `npm run start:dev`
 
+
+
+## PROD
+Ejecutar
+```
+docker build -f dockerfile.prod -t client-gateway .
+```
